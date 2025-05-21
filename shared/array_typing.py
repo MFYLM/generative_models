@@ -10,17 +10,9 @@ import beartype
 import jax
 import jax._src.tree_util as private_tree_util
 import jax.core
-from jaxtyping import Array  # noqa: F401
 from jaxtyping import ArrayLike
-from jaxtyping import Bool  # noqa: F401
-from jaxtyping import DTypeLike  # noqa: F401
 from jaxtyping import Float
-from jaxtyping import Int  # noqa: F401
-from jaxtyping import Key  # noqa: F401
-from jaxtyping import Num  # noqa: F401
 from jaxtyping import PyTree
-from jaxtyping import Real  # noqa: F401
-from jaxtyping import UInt8  # noqa: F401
 from jaxtyping import config
 from jaxtyping import jaxtyped
 import jaxtyping._decorator

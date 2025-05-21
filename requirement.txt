@@ -1,0 +1,7 @@
+jax[cuda]
+flax
+optax
+tqdm-loggable
+jaxtyping==0.1.0
+beartype
+

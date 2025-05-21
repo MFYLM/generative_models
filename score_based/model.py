@@ -152,6 +152,10 @@ class UNet(nnx.Module):
         )
 
     def __call__(self, x: jnp.ndarray, t: jnp.ndarray) -> jnp.ndarray:
+        """
+        x: jnp.ndarray (batch_size, height, width, channels)
+        t: jnp.ndarray (batch_size,)
+        """
         t_emb = self.time_embed(t)
         x = self.init_conv(x)
         skips = [x]
